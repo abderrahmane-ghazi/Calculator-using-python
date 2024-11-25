@@ -1,0 +1,32 @@
+x = float(input("give x: "))
+print(x)
+print()
+y = float(input("give y: "))
+print(y)
+print()
+multiply = x * y
+add = x + y
+substract = x - y
+if y != 0:
+    devision = x / y
+else:
+    devision = ("you can't devide by 0")
+print("What type of calculation do you want? (Choose 1-4)")
+print("1: Multiplication")
+print("2: Subtraction")
+print("3: Addition")
+print("4: Division")
+A = float(input("Your choice: "))
+print(A)
+print()
+if A == 1:
+    print("the result is:", multiply)
+elif A == 2:
+    print("the result is:", substract)
+elif A == 3:
+    print("the result is:", add)
+elif A == 4:
+    print("the result is:", devision) 
+else:
+    print("chose an operation between 1-2-3-4")    
+    
